@@ -6,7 +6,9 @@ namespace BevacquaCiaoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Dimmi il tuo nome:");
+            string nome = Console.ReadLine();
+            Console.Write("Ciao " + nome);
         }
     }
 }
